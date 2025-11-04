@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LR8</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/logo.ico">
+</head>
+<body>
+  <main class="game">
+    <div class="header">
+      <div class="subtitle">Користувач vs Комп’ютер</div>
+    </div>
+    <section class="arena">
+      <article class="player" id="user">
+        <div class="label" id="user-label">User</div>
+        <div class="score" id="user-score">0</div>
+        <div class="disk" id="user-num">–</div>
+      </article>
+      <div class="vs">VS</div>
+      <article class="player" id="cpu">
+        <div class="label">Computer</div>
+        <div class="score" id="cpu-score">0</div>
+        <div class="disk" id="cpu-num">–</div>
+      </article>
+    </section>
+    <div class="controls">
+      <button id="btn-gen" class="btn-primary">Generate</button>
+      <button id="btn-reset" class="btn-ghost" hidden>Reset</button>
+    </div>
+    <div class="log" id="log"></div>
+    <div class="log toast" id="toast"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
